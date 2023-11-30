@@ -24,6 +24,7 @@ function App() {
         <Route index element={<Home />}/> {/*en la ruta principal vamos a poner elemento home */}
         <Route path="products" element={<Products />}/>
         <Route path="about-us" element={<AboutUs />}/>
+        <Route path="*" element={<Home />} />
       </Routes>
       <Footer />
     </div>
